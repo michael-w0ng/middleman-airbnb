@@ -2,6 +2,9 @@
 //   background-color: grey;
 //   width: 200px;
 // }
+.container{
+  margin-bottom: 30px;
+}
 
 .card{
   background-size: cover !important;
@@ -40,15 +43,13 @@
   position: absolute;
   left: 10px;
   bottom: 10px;
-}
-
-.card-description h2{
+  h2{
   font-size: 20px;
-}
-
-.card-description p{
+  }
+  p{
   font-size: 15px;
   font-weight: 400;
+  }
 }
 
 // .card-link{
